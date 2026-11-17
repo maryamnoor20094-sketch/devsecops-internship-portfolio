@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My DevSecOps Portfolio</title>
+</head>
+
+<body id="top">
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>My DevSecOps Portfolio</h1>
+        <p>Learning Linux, Networking, Frontend Development and DevSecOps</p>
+
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Welcome to My Portfolio</h2>
+
+            <p>
+                Welcome to my first personal portfolio website!
+                I am currently learning technology and developing
+                practical skills in Linux, networking, web development
+                and DevSecOps.
+            </p>
+
+            <p>
+                My goal is to understand how websites, computer systems
+                and secure software environments work.
+            </p>
+
+            <a href="#about">Learn More About Me</a>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2>About Me</h2>
+
+            <p>
+                I am a technology learner interested in computer systems,
+                software development and cybersecurity.
+            </p>
+
+            <p>
+                I am currently building my technical knowledge through
+                a DevSecOps internship.
+            </p>
+
+            <p>
+                During my training, I have explored Linux commands,
+                file permissions, Bash scripting, computer networking
+                and SSH connectivity.
+            </p>
+
+            <p>
+                I am learning DevSecOps to understand how development,
+                security and operations work together.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills">
+            <h2>Technical Skills</h2>
+
+            <p>Some technologies and concepts I am currently learning:</p>
+
+            <ul>
+                <li>Linux Fundamentals</li>
+                <li>Bash Scripting</li>
+                <li>Computer Networking</li>
+                <li>SSH Connectivity</li>
+                <li>HTML5</li>
+                <li>Git and GitHub</li>
+            </ul>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+
+            <article>
+                <h3>Project 1: Linux System Information Script</h3>
+
+                <p>
+                    Created a Bash script to collect and display
+                    important system information on a Linux machine.
+                </p>
+
+                <p><strong>Technologies:</strong> Linux, Bash Scripting, Terminal</p>
+
+                <p>
+                    <strong>Learning Outcome:</strong>
+                    Learned how to automate basic system information
+                    collection using Bash.
+                </p>
+            </article>
+
+            <article>
+                <h3>Project 2: Linux Networking and SSH Lab</h3>
+
+                <p>
+                    Practiced Linux networking commands and explored
+                    IP addresses, network interfaces and SSH concepts.
+                </p>
+
+                <p><strong>Technologies:</strong> Linux, Networking, SSH</p>
+
+                <p>
+                    <strong>Learning Outcome:</strong>
+                    Improved understanding of network configuration
+                    and remote connectivity.
+                </p>
+            </article>
+
+            <article>
+                <h3>Project 3: Personal Portfolio Website</h3>
+
+                <p>
+                    Developed a personal portfolio webpage using
+                    HTML5 to present technical skills and projects.
+                </p>
+
+                <p><strong>Technologies:</strong> HTML5, VS Code, Firefox</p>
+
+                <p>
+                    <strong>Learning Outcome:</strong>
+                    Learned HTML document structure, semantic elements,
+                    navigation and forms.
+                </p>
+            </article>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+
+            <p>You can use the form below to send a message.</p>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="name">Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Enter your name"
+                        required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="Enter your email"
+                        required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Write your message"
+                        required></textarea>
+                </div>
+
+                <br>
+
+                <button type="submit">Submit Message</button>
+
+            </form>
+
+            <p>
+                Note: This is a demonstration form.
+                It does not send or store messages yet.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>My DevSecOps Portfolio</p>
+        <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+        <a href="#top">Back to Top</a>
+    </footer>
+
+</body>
+</html>

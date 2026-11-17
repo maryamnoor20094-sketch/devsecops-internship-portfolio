@@ -1,0 +1,19 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Python files for future weeks
+__pycache__/
+.venv/
+
+# Temporary files
+*.log
+*.tmp
